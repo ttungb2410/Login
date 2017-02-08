@@ -12,6 +12,9 @@
 		C77F0CFD1E49C82A00C7F28D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77F0CFB1E49C82A00C7F28D /* Main.storyboard */; };
 		C77F0CFF1E49C82A00C7F28D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77F0CFE1E49C82A00C7F28D /* Assets.xcassets */; };
 		C77F0D021E49C82A00C7F28D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77F0D001E49C82A00C7F28D /* LaunchScreen.storyboard */; };
+		C77F0D0D1E49D17F00C7F28D /* backgroud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C77F0D0A1E49D17F00C7F28D /* backgroud.jpg */; };
+		C77F0D0E1E49D17F00C7F28D /* btnLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = C77F0D0B1E49D17F00C7F28D /* btnLogin.png */; };
+		C77F0D0F1E49D17F00C7F28D /* register.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C77F0D0C1E49D17F00C7F28D /* register.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		C77F0CFE1E49C82A00C7F28D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C77F0D011E49C82A00C7F28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C77F0D031E49C82A00C7F28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77F0D0A1E49D17F00C7F28D /* backgroud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud.jpg; sourceTree = "<group>"; };
+		C77F0D0B1E49D17F00C7F28D /* btnLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnLogin.png; sourceTree = "<group>"; };
+		C77F0D0C1E49D17F00C7F28D /* register.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = register.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,19 @@
 				C77F0CFE1E49C82A00C7F28D /* Assets.xcassets */,
 				C77F0D001E49C82A00C7F28D /* LaunchScreen.storyboard */,
 				C77F0D031E49C82A00C7F28D /* Info.plist */,
+				C77F0D091E49D16500C7F28D /* Image */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		C77F0D091E49D16500C7F28D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C77F0D0A1E49D17F00C7F28D /* backgroud.jpg */,
+				C77F0D0B1E49D17F00C7F28D /* btnLogin.png */,
+				C77F0D0C1E49D17F00C7F28D /* register.jpg */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77F0D0F1E49D17F00C7F28D /* register.jpg in Resources */,
+				C77F0D0E1E49D17F00C7F28D /* btnLogin.png in Resources */,
 				C77F0D021E49C82A00C7F28D /* LaunchScreen.storyboard in Resources */,
 				C77F0CFF1E49C82A00C7F28D /* Assets.xcassets in Resources */,
+				C77F0D0D1E49D17F00C7F28D /* backgroud.jpg in Resources */,
 				C77F0CFD1E49C82A00C7F28D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
